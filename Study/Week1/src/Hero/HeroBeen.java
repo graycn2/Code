@@ -7,7 +7,7 @@ public class HeroBeen {
     private int life;
     private int level;
     private Arms arms;
-    public HeroBeen() {
+    public HeroBeen(int i, Gun gun) {
         this.life=100;
         this.level=1;
         Scanner scan=new Scanner(System.in);
